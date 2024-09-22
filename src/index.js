@@ -90,7 +90,7 @@ module.exports = [
       ],
 
       'no-undef': [
-        'error',
+        'off',
       ],
 
       '@typescript-eslint/no-unused-vars': [
