@@ -1,6 +1,6 @@
 {
   "name": "@jgalminas/eslint",
-  "version": "1.0.4",
+  "version": "1.0.7",
   "description": "",
   "main": "src/index.js",
   "scripts": {
