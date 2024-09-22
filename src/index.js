@@ -1,4 +1,12 @@
-export default [
+const js = require('@eslint/js');
+const globals = require('globals');
+const reactHooks = require('eslint-plugin-react-hooks');
+const reactRefresh = require('eslint-plugin-react-refresh');
+const react = require('eslint-plugin-react');
+const tseslint = require('typescript-eslint');
+const stylistic = require('@stylistic/eslint-plugin');
+
+module.exports = [
   js.configs.recommended,
   react.configs.flat.recommended,
   ...tseslint.configs.recommended,
