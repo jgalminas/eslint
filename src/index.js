@@ -158,6 +158,13 @@ module.exports = [
       'react/jsx-closing-bracket-location': ['error', 'line-aligned'],
       'react/jsx-tag-spacing': ['error', { 'beforeSelfClosing': 'always' }],
       'react/react-in-jsx-scope': 'off',
+      'react/jsx-max-props-per-line': [
+        'error',
+        {
+          when: 'multiline',
+        },
+      ],
+
     },
   },
 ]
