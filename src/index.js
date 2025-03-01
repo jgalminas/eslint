@@ -50,7 +50,7 @@ module.exports = [
 
       '@stylistic/linebreak-style': [
         'error',
-        'windows',
+        'unix',
       ],
 
       '@stylistic/quotes': [
@@ -164,7 +164,6 @@ module.exports = [
           when: 'multiline',
         },
       ],
-
     },
   },
 ]
