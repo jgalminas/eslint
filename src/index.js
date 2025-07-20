@@ -161,7 +161,8 @@ module.exports = [
       'react/jsx-max-props-per-line': [
         'error',
         {
-          when: 'multiline',
+          maximum: 1,
+          when: 'always',
         },
       ],
     },
