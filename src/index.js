@@ -12,7 +12,7 @@ module.exports = [
   ...tseslint.configs.recommended,
 
   {
-    files: ['**/*.{ts,tsx,js}'],
+    files: ['src/**/*.{ts,tsx,js}'],
     languageOptions: {
       globals: { ...globals.browser, ...globals.node },
     },
